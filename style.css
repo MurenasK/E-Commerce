@@ -26,6 +26,7 @@ li {
 
 .container {
     padding: 56px 0;
+    margin: 0 auto;
 }
 
 .row {
@@ -277,4 +278,39 @@ FEATURES
 .book:hover .book__img {
     transform: scale(1.03);
 }
-bo
+
+.book__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.book__title:hover {
+    text-decoration: underline;
+    cursor: no-drop;
+}
+
+.book__ratings {
+    color: #fabf2a;
+    margin-bottom: 8px;
+}
+
+.book__price--normal {
+    text-decoration: line-through;
+    padding-right: 6px;
+    color: gray;
+}
+
+
+/* 
+
+Recent Books
+
+*/
+
+
+.recent__books--wrapper {
+    margin: 0 auto;
+    flex-wrap: wrap;;
+    display: flex;
+}
